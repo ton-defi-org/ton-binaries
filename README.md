@@ -9,7 +9,7 @@ Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-bi
 ### Linux (Ubuntu / Debian)
 
 ```
-sudo apt-get update
+sudo apt update
 sudo apt install git make cmake g++ libssl-dev zlib1g-dev wget
 cd ~ && git clone https://github.com/newton-blockchain/ton.git
 cd ~/ton && git submodule update --init
