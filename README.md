@@ -4,6 +4,8 @@ Useful pre-compiled TON binaries (`fift`, `func`, `lite-client`) for multiple op
 
 Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo.
 
+Make sure the downloaded binaries are executable by changing their permissions (ie by running `chmod +x fift`).
+
 ## Compilation instructions
 
 ### Linux (Ubuntu / Debian)
