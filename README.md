@@ -4,20 +4,13 @@ Useful pre-compiled TON binaries (`fift`, `func`, `lite-client`) for multiple op
 
 ### Instructions
 
-* Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using.
+1. Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using.
 
-* After download, make sure the downloaded binaries are executable by changing their permissions (ie by running `chmod +x fift`). It's also useful to place these binaries in your path (or copy them to `/usr/local/bin`) to make sure you can access them from anywhere.
+2. After download, make sure the downloaded binaries are executable by changing their permissions (ie by running `chmod +x fift`). It's also useful to place these binaries in your path (or copy them to `/usr/local/bin`) to make sure you can access them from anywhere.
 
-* To check that everything was installed correctly, run in terminal:
-  ```
-  fift -V && func -V && lite-client -V
-  ```
-  If everythibng works, you should see something like:
-  ```
-  Fift build information: [ Commit: 9875f02ef4ceba5b065d5e63c920f91aec73224e, Date: 2021-11-08 00:10:10 +0300]
-  Func build information: [ Commit: 9875f02ef4ceba5b065d5e63c920f91aec73224e, Date: 2021-11-08 00:10:10 +0300]
-  lite-client build information: [ Commit: 9875f02ef4ceba5b065d5e63c920f91aec73224e, Date: 2021-11-08 00:10:10 +0300]
-  ```
+3. To check that everything was installed correctly, run in terminal `fift -V && func -V && lite-client -V`
+
+4. If you plan to use `fift`, also download [fiftlib.zip](https://github.com/ton-defi-org/ton-binaries/releases/download/fiftlib/fiftlib.zip), open the zip in some directory on your machine (like `/usr/local/lib/fiftlib`) and set the environment variable `FIFTPATH` to point to this directory.
 
 ## Alternative - compile by yourself
 
