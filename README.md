@@ -4,8 +4,15 @@ Useful pre-compiled TON binaries (`fift`, `func`, `lite-client`) for multiple op
 
 ### Instructions
 
-1. Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using.
-
+1. Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using:
+    | Operating System | fift | func | lite-client | Additional dependencies |
+    |------------------|------|------|-------------|-------|
+    | MacOS M1 | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/lite-client) | `brew install openssl` |
+    | MacOS Intel | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-intel/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-intel/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-intel/lite-client) | `brew reinstall readline` |
+    | Windows 64 | [fift.exe](https://github.com/ton-defi-org/ton-binaries/releases/download/windows-64/fift.exe) | [func.exe](https://github.com/ton-defi-org/ton-binaries/releases/download/windows-64/func.exe) | [lite-client.exe](https://github.com/ton-defi-org/ton-binaries/releases/download/windows-64/lite-client.exe) | |
+    | Ubuntu 18 | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-18/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-18/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-18/lite-client) | `sudo apt install libssl-dev zlib1g-dev` |
+    | Ubuntu 16 | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-16/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-16/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/ubuntu-16/lite-client) | `sudo apt install libssl-dev zlib1g-dev` |
+    | Debian 10 | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/debian-10/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/debian-10/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/debian-10/lite-client) | |
 2. After download, make sure the downloaded binaries are executable by changing their permissions (ie by running `chmod +x fift`). It's also useful to place these binaries in your path (or copy them to `/usr/local/bin`) to make sure you can access them from anywhere.
 
 3. To check that everything was installed correctly, run in terminal `fift -V && func -V && lite-client -V`
