@@ -4,7 +4,7 @@ Useful pre-compiled TON binaries (`fift`, `func`, `lite-client`) for multiple op
 
 ### Instructions
 
-1. Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using:
+1. Download the binaries from the [Releases](https://github.com/ton-defi-org/ton-binaries/releases) page of this repo - make sure to select the correct version according to the operating system you're using and install the additional dependencies:
     | Operating System | fift | func | lite-client | Additional dependencies |
     |------------------|------|------|-------------|-------|
     | MacOS M1 | [fift](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/fift) | [func](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/func) | [lite-client](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1/lite-client) | `brew install openssl` |
