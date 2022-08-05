@@ -28,13 +28,12 @@ If you don't want to rely on pre-compiled binaries and prefer to compile the bin
 ```
 sudo apt update
 sudo apt install git make cmake g++ libssl-dev zlib1g-dev wget
-cd ~ && git clone https://github.com/newton-blockchain/ton.git
+cd ~ && git clone https://github.com/ton-blockchain/ton.git
 cd ~/ton && git submodule update --init
 mkdir ~/ton/build && cd ~/ton/build && cmake .. -DCMAKE_BUILD_TYPE=Release && make -j 4
 ```
-
 ## Other sources for binaries
 
-The core team provides automatic builds for several operating systems as [GitHub Actions](https://github.com/newton-blockchain/ton/actions).
+The core team provides automatic builds for several operating systems as [GitHub Actions](https://github.com/ton-blockchain/ton/actions).
 
 Click on the link above, choose the workflow on the left relevant to your operating system, click on a recent green passing build and under "Artifacts" download `ton-binaries`.
