@@ -18,7 +18,7 @@ Useful pre-compiled TON binaries (`fift`, `func`, `lite-client`) for multiple op
 
 3. To check that everything was installed correctly, run in terminal `fift -V && func -V && lite-client -V`
 
-4. If you plan to use `fift`, also download [fiftlib.zip](https://github.com/ton-defi-org/ton-binaries/releases/download/fiftlib/fiftlib.zip), open the zip in some directory on your machine (like `/usr/local/lib/fiftlib`) and set the environment variable `FIFTPATH` to point to this directory.
+4. If you plan to use `fift`, also download [fiftlib.zip](https://github.com/ton-defi-org/ton-binaries/releases/download/macos-m1-0.2.0/fiftlib.zip), open the zip in some directory on your machine (like `/usr/local/lib/fiftlib`) and set the environment variable `FIFTPATH` to point to this directory.
 
 ## Alternative - compile by yourself
 
