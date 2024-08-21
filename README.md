@@ -29,6 +29,7 @@ If you don't want to rely on pre-compiled binaries and prefer to compile the bin
 ```
 sudo apt update
 sudo apt install git make cmake g++ libssl-dev zlib1g-dev wget
+sudo apt install pkg-config liblz4-1 liblz4-dev  libsecp256k1-0 libsecp256k1-dev libsodium23 libsodium-dev
 cd ~ && git clone https://github.com/ton-blockchain/ton.git
 cd ~/ton && git submodule update --init
 mkdir ~/ton/build && cd ~/ton/build && cmake .. -DCMAKE_BUILD_TYPE=Release && make -j 4
